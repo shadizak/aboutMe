@@ -1,0 +1,91 @@
+
+body {
+     
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    font-family:  Arial, sans-serif;
+    opacity: 0.60;}
+    
+#header {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.00);}
+
+#header nav li {
+    text-transform: uppercase;
+    padding: 10px 50px;
+    
+    display: inline-block;}
+#header a {
+    text-align: center;
+    color: rgb(249, 72, 8);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight:bolder;} 
+
+.personal-text {
+    font-size: 40px;
+    text-transform: uppercase;
+     margin-bottom: 25px;}
+
+em{
+    color: rgb(249, 72, 8);
+    font-style: italic;}
+
+#about-me {
+    margin: 25px;
+    background: #333;
+    color: #eee;
+    padding: 30px 30px 30px 100px;
+    border-radius: 5px;
+    width: auto;}
+
+h2, h3 {
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;}
+
+.about-text {
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 20px;
+    word-spacing: 5px;
+    }
+
+#my-timeline, .topTen, .contact {
+        margin: 25px 200px;
+        padding: 20px;
+        background-color:#fcfffd;
+        border-radius: 5px;
+        font-weight: 700; }
+
+.single-content {
+        padding: 5px;
+        margin-left: 20px;
+        list-style-type:square;
+        white-space: pre-line;
+      }
+
+    
+#my-timeline .single-content {
+        border-left-color: #ccc;}
+
+.contact {
+    clear: both;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.50);}
+
+footer {
+    clear: both;
+    background: #333;
+    padding: 15px 10px 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    width: 100%;
+}
+
+ 
