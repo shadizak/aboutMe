@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+# 201 Labs -About-Me-Profile
 
-You can use the [editor on GitHub](https://github.com/shadizak/aboutMe/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+An about Me guessing game that utilizes HTML, CSS & JavaScript.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The most general information about me, with a guessing game to
+know how much You know me, Be cool.
 
-### Markdown
+### 201 week #1 labs:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- **class 102** done by using :
 
-```markdown
-Syntax highlighted code block
+  1. **while**
+  1. `switch`.
+  1. _prompt_.
+  1. `toUpperCase()`.
+  1. `toLowerCase()`.
 
-# Header 1
-## Header 2
-### Header 3
+- **class 102** done by using :
 
-- Bulleted
-- List
+  1. _An ordered and unordered list in HTML_.
+  1. _for loop_.
+  1. _if statment_.
 
-1. Numbered
-2. List
+- **class 102** - done by using :
+  1. `functions`.
 
-**Bold** and _Italic_ and `Code` text
+## license is used here (MIT license).
 
-[Link](url) and ![Image](src)
-```
+## eslintrc.json file:
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shadizak/aboutMe/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+`ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs. In many ways, it is similar to JSLint and JSHint with a few exceptions: ESLint uses Espree for JavaScript parsing.`
