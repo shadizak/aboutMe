@@ -77,7 +77,7 @@ switch (hostHoppy) {
 //third question 4 oppertonities
 
 function yesNo() {
-    for (let Age = 0; Age < 4; Age++) {
+    for (var Age = 0; Age < 4; Age++) {
         var hostAge = parseInt(
             prompt(gistName + ' ' + 'Could you please guess my age')
         );
@@ -110,7 +110,7 @@ var questions = [
 ];
 var answers = ['yes I am', 'No Im not'];
 
-for (let i = 0; i < questions.length; i++) {
+for (var i = 0; i < questions.length; i++) {
     var getQuestions = questions[i];
 
     var questionShown = prompt(gistName + ' ' + getQuestions);
@@ -120,7 +120,7 @@ for (let i = 0; i < questions.length; i++) {
         questionShown !== 'y' &&
         questionShown !== 'yes' &&
         questionShown !== 'n' &&
-        questionShown !== 'no' 
+        questionShown !== 'no'
      
     ) {
         questionShown = prompt('Answer by (yes / no) :) ');
@@ -153,7 +153,7 @@ var likeCar = [
 ];
 
 function favCar() {
-    for (let i = 0; i < 2; i++) {
+    for (var i = 0; i < 2; i++) {
         var gistAnswer = prompt(
             'What is My favourite Car brand?' + ' BMW, BMW, BMW'
         ).toLowerCase();
