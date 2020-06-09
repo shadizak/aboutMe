@@ -7,7 +7,7 @@ know how much You know me, Be cool.
 
 ### 201 week #1 labs:
 
-- **class 102** done by using :
+- **lab 1** done by using :
 
   1. **while**
   1. `switch`.
@@ -15,13 +15,13 @@ know how much You know me, Be cool.
   1. `toUpperCase()`.
   1. `toLowerCase()`.
 
-- **class 102** done by using :
+- **lab 2** done by using :
 
   1. _An ordered and unordered list in HTML_.
   1. _for loop_.
   1. _if statment_.
 
-- **class 102** - done by using :
+- **From class 102** - done by using :
   1. `functions`.
 
 ## license is used here (MIT license).
