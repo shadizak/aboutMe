@@ -14,6 +14,7 @@ alert(' Welcome' + ' ' + gistName + ' ' + 'to my profile');
 
 
 //first question
+
 var firstQ = prompt('Do you think  my name Shadi or Shado?').toUpperCase();
 while (
     firstQ !== 'N' &&
