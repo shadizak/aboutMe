@@ -6,10 +6,11 @@ var gistName = prompt(
 );
 // if the user insert invaled or number value, while, do and parseInt will solve the problem
 while (!isNaN(parseInt(gistName))) {
-    gistName = prompt(' please use letters.');
+    gistName = prompt(' please use letters.Could you please tell me your name?');
 }
-// // console.log(gistName);
+ // console.log(gistName);
 alert(' Welcome' + ' ' + gistName + ' ' + 'to my profile');
+
 
 
 //first question
@@ -20,17 +21,17 @@ while (
     firstQ !== 'YES' &&
     firstQ !== 'Y'
 ) {
-    firstQ = prompt('Remember its a YES or NO question').toUpperCase();
+    firstQ = prompt('Remember its a YES or NO question \n Question -> Do you think  my name Shadi or Shado?').toUpperCase();
 }
 
 switch (firstQ) {
     case 'Y':
     case 'YES':
-        alert('thats correct,' + '  ' + gistName + 'my name is Shadi :) ');
+        alert('that\'s correct,' + '  ' + gistName + ' '+ 'my name is Shadi :) ');
         break;
     case 'N':
     case 'NO':
-        alert('Hmmm :(, No My name is Shadi');
+        alert('Hmmm :(, No My name is Shadi or Shadooo');
 }
 
 // // second question
@@ -45,7 +46,7 @@ while (
     hostHoppy !== 'no'
 ) {
    
-    hostHoppy = prompt('Remember its a Yes/No question').toLowerCase();
+    hostHoppy = prompt('Remember its a Yes/No question\nQuestion - > Do I like to watch Sports matches?!').toLowerCase();
 }
 
 // // points counter (to count how many correct answers the user do)
@@ -55,7 +56,6 @@ switch (hostHoppy) {
     case true:
     case 'y':
     case 'yes':
-    
         alert('yes I do');
         alert('Congrats');
         yourPoints += 1;
@@ -73,11 +73,11 @@ switch (hostHoppy) {
 }
 
 // -------------------------------------------------------------------------------------------------------------
-// in this section of the game I used the If statment, for loops, functions and arrays.
-//third question 4 oppertonities
+// in this section I used the If statment, for loops, functions and arrays.
+//third question 6 oppertonities
 
 function yesNo() {
-    for (var Age = 0; Age < 4; Age++) {
+    for (var Age = 0; Age < 6; Age++) {
         var hostAge = parseInt(
             prompt(gistName + ' ' + 'Could you please guess my age')
         );
@@ -85,23 +85,23 @@ function yesNo() {
             hostAge = parseInt(prompt('Enter my age here'));
         }
         if (hostAge <= 10) {
-            alert('ya reeeeet ');
+            alert('ya reeeeet walla :) Akbr bkteeeer ha ha ha :) ');
         } else if (hostAge === 29) {
-            alert('right');
+            alert('WoW -> Right');
             yourPoints += 1;
             break;
         } else if (hostAge >= 30) {
-            alert('NO NO NO NO , tooooo old, ahahahhaha  :');
+            alert('NO NO NO NO , tooooo old ya rajel :) , Try Try');
         } else if (25 < hostAge < 30) {
             alert('gitting close, keep rying');
         }
     }
-
     alert('I am 29 years old');
     // console.log(hostAge);
 }
 yesNo();
 
+//Fourth question  
 // arrays
 var questions = [
     'You Think I\'m like a sea food? (yes/no)',
@@ -123,7 +123,7 @@ for (var i = 0; i < questions.length; i++) {
         questionShown !== 'no'
      
     ) {
-        questionShown = prompt('Answer by (yes / no) :) ');
+        questionShown = prompt('Answer by (yes / no) :),Questions - > +'+getQuestions);
     }
     var gistAnswer_3 = questionShown.toUpperCase();
     console.log(gistAnswer_3);
@@ -138,31 +138,32 @@ for (var i = 0; i < questions.length; i++) {
         case 'N':
         case 'NO':
  
-            alert('sorry, but yes I do' + ' ' + answers[1]);
+            alert('sorry, but yes' + ' ' + answers[1]);
             break;
         default:
             alert('Hmmm You don\'t know me !!!!!!! WAYYYY..');
     }
 }
+// Question # 5
 
 var likeCar = [
-    'BMW',
-    'BMW',
-    'BMW',
+    'bmw',
+    'mincoper',
+    'suparo',
     
 ];
 
 function favCar() {
     for (var i = 0; i < 2; i++) {
         var gistAnswer = prompt(
-            'What is My favourite Car brand?' + ' BMW, BMW, BMW'
+            'What is My favourite Car brand?' + ' BMW, Mincoper, Suparo'
         ).toLowerCase();
         var attemptNum = 0;
         for (var j = 0; j < likeCar.length; j++) {
             if (gistAnswer === likeCar[j]) {
                 alert('yes, I like this brand');
                 alert(
-                    'My fav car brands are BMW, BMW, BMW, BMW, BMW, but each car diff. Color ha ha ha ha'
+                    'My fav car brands are BMW, Mincoper, Suparo'
                 );
                 yourPoints += 1;
                 break;
@@ -179,4 +180,60 @@ function favCar() {
     }
 }
 favCar();
-alert('you have owned ' + ' ' + yourPoints + ' ' + 'out of 5 Congrats !!!');
+
+// Q -> 6
+var sixQ = prompt('After all my skills on the site, do you think I am a professional programmer?').toUpperCase();
+while (
+    sixQ !== 'N' &&
+    sixQ !== 'NO' &&
+    sixQ !== 'YES' &&
+    sixQ !== 'Y'
+) {
+    sixQ = prompt('Remember its a YES or NO question \n Question -> After all my skills on the site, do you think I am a professional programmer?').toUpperCase();
+}
+
+switch (sixQ) {
+    case 'Y':
+    case 'YES':
+        alert('that\'s correct,' + '  ' + gistName + ' '+ 'i\'m professional programmer withh JS) ');
+        yourPoints += 1;
+        break;
+    case 'N':
+    case 'NO':
+        alert('Hmmm :( WHY!!!!! , But i\'m professional programmer withh JS :)');
+}
+
+var sevenQ = prompt(
+    gistName + ' ' + 'Do you think I am comfortable working with a team of different cultures??! (yes/no)'
+).toLowerCase();
+// if the user insert number value, while, do and parseInt will solve the problem
+while (
+    sevenQ !== 'y' &&
+    sevenQ !== 'yes' &&
+    sevenQ !== 'n' &&
+    sevenQ !== 'no'
+) {
+   
+    sevenQ = prompt('Remember its a Yes/No question\nQuestion - > Do you think I am comfortable working with a team of different cultures?').toLowerCase();
+}
+switch (sevenQ) {
+    case true:
+    case 'y':
+    case 'yes':
+        alert('Yaaa , This is my dream to look at the beauty of a difference, the world around me');
+        alert('Congrats');
+        yourPoints += 1;
+        break;
+    case false:
+    case 'no':
+    case 'n':
+    
+        alert(
+            'Sooooo sorry, but I like to work with different cultures?'
+        );
+        break;
+    default:
+        alert('Yaaa , This is my dream to look at the beauty of a difference, the world around me');
+}
+
+alert('you have owned ' + ' ' + yourPoints + ' ' + 'out of 7 Congrats !!!');
