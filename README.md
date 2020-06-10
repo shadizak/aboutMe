@@ -1,3 +1,7 @@
+
+## Driver: Haneen Awadallah
+## Navigator: Shadi Zaqout
+
 # 201 Labs -About-Me-Profile
 
 An about Me guessing game that utilizes HTML, CSS & JavaScript.
