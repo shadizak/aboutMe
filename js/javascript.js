@@ -1,4 +1,5 @@
-// guessing game  
+// guessing game
+  
 'use strict';
 var yourPoints = 0;
 
@@ -15,6 +16,7 @@ alert(' Welcome' + ' ' + gistName + ' ' + 'to my profile');
 
 
 //first question
+
 function firstQuestion(){
     var firstQ = prompt('Do you think  my name Shadi or Shado?').toUpperCase();
     while (
