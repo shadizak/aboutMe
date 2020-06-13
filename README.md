@@ -1,7 +1,4 @@
-
-## Driver: Haneen Awadallah
-## Navigator: Shadi Zaqout
-
+ 
 # 201 Labs -About-Me-Profile
 
 An about Me guessing game that utilizes HTML, CSS & JavaScript.
@@ -25,7 +22,7 @@ know how much You know me, Be cool.
   1. _for loop_.
   1. _if statment_.
 
-- **From class 102** - done by using :
+- ** lab 3** - done by using :
   1. `functions`.
 
 ## license is used here (MIT license).
