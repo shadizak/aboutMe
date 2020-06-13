@@ -9,11 +9,8 @@ var gistName = prompt(
 while (!isNaN(parseInt(gistName))) {
     gistName = prompt(' please use letters.Could you please tell me your name?');
 }
- // console.log(gistName);
-alert(' Welcome' + ' ' + gistName + ' ' + 'to my profile');
-
-
-
+ alert(' Welcome' + ' ' + gistName + ' ' + 'to my profile');
+ 
 //first question
 function firstQuestion(){
     var firstQ = prompt('Do you think  my name Shadi or Shado?').toUpperCase();
@@ -52,10 +49,8 @@ function secondQuestion(){
        
         hostHoppy = prompt('Remember its a Yes/No question\nQuestion - > Do I like to watch Sports matches?!').toLowerCase();
     }
-    
-    // // points counter (to count how many correct answers the user do)
-    // // define the yes/y as possitive answer and no/n as negative answer
-    switch (hostHoppy) {
+     // // points counter (to count how many correct answers the user do)
+     switch (hostHoppy) {
         case true:
         case 'y':
         case 'yes':
@@ -100,8 +95,7 @@ function thirdQuestion() {
         }
     }
     alert('I am 29 years old');
-    // console.log(hostAge);
-}
+ }
 thirdQuestion();
 
 function fourthQuestion(){
@@ -128,8 +122,7 @@ function fourthQuestion(){
             questionShown = prompt('Answer by (yes / no) :),Questions - > +'+getQuestions);
         }
         var gistAnswer_3 = questionShown.toUpperCase();
-        console.log(gistAnswer_3);
-        switch (gistAnswer_3) {
+         switch (gistAnswer_3) {
             case 'Y':
             case 'YES':
           
@@ -215,8 +208,7 @@ function seventhQuestion(){
     var sevenQ = prompt(
         gistName + ' ' + 'Do you think I am comfortable working with a team of different cultures??! (yes/no)'
     ).toLowerCase();
-    // if the user insert number value, while, do and parseInt will solve the problem
-    while (
+     while (
         sevenQ !== 'y' &&
         sevenQ !== 'yes' &&
         sevenQ !== 'n' &&
